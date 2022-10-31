@@ -1,0 +1,172 @@
+.card-body-1 {
+    background-image: url("/assets/actor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.card-body-2 {
+    background-image: url("/assets/unknown.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: -5px;
+    border-bottom: 2px solid rgba(85, 85, 85, 0.212);
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color: white;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    padding-left: 100%;
+}
+
+.navbar-brand p {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body-1 p {
+    padding-top: 50%;
+    padding-left: 40px;
+}
+
+.card-body-2 p {
+    padding-top: 30%;
+    color: white;
+
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    font-size: small;
+}
+
+.card {
+    padding-top: 10px;
+}
+
+
+
+.background {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.area {
+    position: absolute;
+    width: 400px;
+    right: 190px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.slot {
+    display: block;
+    width: 70%;
+    margin: 20px auto auto auto;
+
+}
+
+.slot .ico {
+    float: left;
+    width: 14px;
+    padding: 0 14px;
+    height: 39px;
+    border-bottom: 2px solid black;
+
+}
+
+.slot .inp {
+    width: 85%;
+    font-size: 18px;
+    line-height: 35px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+
+}
+
+.slot .inp:focus {
+    outline: 0;
+}
+.btn{
+    display: block;
+    margin: 15px auto;
+    width: 70%;
+    border: 0;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+
+}
+.frgt {
+    display: block;
+    margin: 10px auto 50px auto;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    width: 70%;
+}
+
+.or {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition-duration: 0.3s;
+}
+
+.black:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.line {
+    background-color: transparent;
+    color: black;
+    transition-duration: 0.3s;
+    border: 2px solid black;
+}
+
+.line:hover {
+    background-color: black;
+    color: white;
+}
+
+.frgt:hover {
+    text-decoration: underline;
+}
